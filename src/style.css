@@ -36,6 +36,14 @@ section {
     place-items: center;
 }
 
+@media (max-width: 800px) {
+
+    footer,
+    section {
+        flex-wrap: wrap;
+    }
+}
+
 h1 {
     font-size: 86px;
     padding-left: 5%;
@@ -108,7 +116,7 @@ footer {
     place-items: center;
 }
 
-footer a{
+footer a {
     color: white;
     font-weight: 900;
 }
